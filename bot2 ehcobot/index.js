@@ -16,10 +16,10 @@ bot.use((ctx, next) => {
     // console.log(ctx.chat);
     if(ctx.updateSubTypes[0] == 'text'){
         // console.log(ctx.from.username + " said: " + ctx.message.text);
-        bot.telegram.sendMessage(-425498927, ctx.from.username + " said: " + ctx.message.text);
+        bot.telegram.sendMessage("yourChatID", ctx.from.username + " said: " + ctx.message.text);
     }else{
         // console.log(ctx.from.username+ " sent: "+ctx.updateSubTypes[0]);
-        bot.telegram.sendMessage(-425498927, ctx.from.username+ " sent: "+ctx.updateSubTypes[0]);
+        bot.telegram.sendMessage("yourChatID", ctx.from.username+ " sent: "+ctx.updateSubTypes[0]);
     }
     next();
 })
