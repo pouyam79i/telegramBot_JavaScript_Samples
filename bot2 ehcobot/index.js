@@ -58,9 +58,12 @@ bot.command('echo', (ctx) => {
 
 
 // this is a loger function example, it can be used in method to send you information
-/* function logger(ctx) {
+
+/* 
+function logger(ctx) {
      console.log(ctx.from.username + " said: " + ctx.message.text);
-*/ }
+}
+*/
 
 // at the end of your script remmember to add this, else yor bot will not run
 bot.launch();
