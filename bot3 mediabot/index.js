@@ -149,4 +149,5 @@ bot.on('message', async ctx => {
     }
 })
 
+// at the end of your script remmember to add this, else yor bot will not run
 bot.launch(); 
