@@ -1,4 +1,4 @@
-# Telegram bot JavaScript samples
+# Coding Telegram bots with JavaScript (samples)
 
 ### Telegram bot API course
 well these are some examples of the bot codes with JavaScript.
