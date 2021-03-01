@@ -1,6 +1,6 @@
 const Telegraf = require('telegraf'); //includeing telegraf lib
 
-const bot = new Telegraf('YOUR BOT TOKEN');
+const bot = new Telegraf('YOUR BOT TOKEN'); // add your bot token
 
 // help message text:
 const helpMessage = `
@@ -57,8 +57,10 @@ bot.command('echo', (ctx) => {
 })
 
 
-// function logger(ctx) {
-//     console.log(ctx.from.username + " said: " + ctx.message.text);
-// }
+// this is a loger function example, it can be used in method to send you information
+/* function logger(ctx) {
+     console.log(ctx.from.username + " said: " + ctx.message.text);
+*/ }
 
+// at the end of your script remmember to add this, else yor bot will not run
 bot.launch();
