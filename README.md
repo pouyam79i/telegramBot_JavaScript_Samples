@@ -18,5 +18,4 @@ These are examples of bots which you can run it on node.js :)<br>
 If you want to use these bots and test them remember to update libraries.
 <br>
 
-### Good Lock
-### Pouya Mohammadi
+##### Written by  Pouya Mohammadi
